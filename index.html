@@ -42,7 +42,7 @@ input, button { padding: 10px; margin: 6px 0; width: 100%; font-size: 16px; }
 <!-- EXAM SCREEN -->
 <div id="examScreen" class="hidden">
   <h2 id="qCounter"></h2>
-  <div id="timer">Time Remaining: 20:00</div>
+  <div id="timer">Time Remaining: 120:00</div>
   <p id="questionText"></p>
   <div id="options"></div>
   <button onclick="submitAnswer()">Submit Answer</button>
@@ -1926,7 +1926,7 @@ let shuffledQuestions = [];
 let currentIndex = 0;
 let selectedIndex = null;
 let score = { SCFHS:0, NCLEX:0, STR:0, SAFE_DELAY:0 };
-let totalTime = 20*60;
+let totalTime = 120*60;
 let timeLeft = totalTime;
 let timerInterval = null;
 
