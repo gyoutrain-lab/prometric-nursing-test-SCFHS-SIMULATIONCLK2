@@ -371,6 +371,312 @@ const questions = [
     }
   }
 },
+{
+  q: "A nurse is educating a client newly diagnosed with type 1 diabetes. Which statement indicates understanding?",
+  options: [
+    { text: "I will never stop taking insulin even when I am sick", tag: "SCFHS" },
+    { text: "I only need insulin when my blood sugar is high", tag: "SAFE_DELAY" },
+    { text: "Exercise replaces the need for insulin", tag: "NCLEX" },
+    { text: "Insulin is only required during meals", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Type 1 diabetes requires lifelong insulin therapy.",
+    distractors: {
+      SAFE_DELAY: "Insulin is required continuously.",
+      NCLEX: "Exercise does not replace insulin.",
+      STR: "Basal insulin is required beyond meals."
+    }
+  }
+},
+{
+  q: "A client on bed rest is at risk for pressure injuries. Which intervention is MOST effective for prevention?",
+  options: [
+    { text: "Reposition the client every 2 hours", tag: "SCFHS" },
+    { text: "Apply lotion to bony prominences", tag: "SAFE_DELAY" },
+    { text: "Massage reddened areas", tag: "NCLEX" },
+    { text: "Use warm compresses on pressure points", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Frequent repositioning reduces prolonged pressure.",
+    distractors: {
+      SAFE_DELAY: "Lotion alone is insufficient.",
+      NCLEX: "Massage damages ischemic tissue.",
+      STR: "Heat increases tissue injury."
+    }
+  }
+},
+{
+  q: "A nurse suspects hypoglycemia in an unconscious client. What is the MOST appropriate immediate intervention?",
+  options: [
+    { text: "Administer IV dextrose", tag: "SCFHS" },
+    { text: "Provide oral glucose gel", tag: "SAFE_DELAY" },
+    { text: "Check urine ketones", tag: "NCLEX" },
+    { text: "Administer insulin", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Unconscious clients require IV glucose for rapid correction.",
+    distractors: {
+      SAFE_DELAY: "Oral glucose is unsafe in unconscious patients.",
+      NCLEX: "Ketone testing delays treatment.",
+      STR: "Insulin worsens hypoglycemia."
+    }
+  }
+},
+{
+  q: "A nurse is preparing to administer an intramuscular injection to an adult client. Which site is MOST appropriate?",
+  options: [
+    { text: "Ventrogluteal muscle", tag: "SCFHS" },
+    { text: "Dorsogluteal muscle", tag: "SAFE_DELAY" },
+    { text: "Deltoid muscle", tag: "NCLEX" },
+    { text: "Rectus femoris muscle", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "The ventrogluteal site is safest and free from major nerves and blood vessels.",
+    distractors: {
+      SAFE_DELAY: "Dorsogluteal has risk of sciatic nerve injury.",
+      NCLEX: "Deltoid is limited by volume.",
+      STR: "Rectus femoris is less preferred in adults."
+    }
+  }
+},
+{
+  q: "A client with chronic obstructive pulmonary disease (COPD) is receiving oxygen therapy. Which finding requires immediate nursing intervention?",
+  options: [
+    { text: "Oxygen saturation of 99% on 4 L/min", tag: "SCFHS" },
+    { text: "Barrel-shaped chest", tag: "SAFE_DELAY" },
+    { text: "Use of accessory muscles", tag: "NCLEX" },
+    { text: "Chronic productive cough", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "High oxygen levels can suppress respiratory drive in COPD clients.",
+    distractors: {
+      SAFE_DELAY: "Barrel chest is expected in COPD.",
+      NCLEX: "Accessory muscle use is common during exacerbation.",
+      STR: "Chronic cough is expected."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with a nasogastric tube connected to low intermittent suction. Which action is MOST appropriate?",
+  options: [
+    { text: "Assess tube placement before irrigating", tag: "SCFHS" },
+    { text: "Increase suction if drainage slows", tag: "SAFE_DELAY" },
+    { text: "Flush tube routinely every hour", tag: "NCLEX" },
+    { text: "Clamp tube after medication administration", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Placement must be verified to prevent aspiration.",
+    distractors: {
+      SAFE_DELAY: "Increasing suction may damage gastric mucosa.",
+      NCLEX: "Routine flushing is not indicated without order.",
+      STR: "Clamping may worsen gastric distention."
+    }
+  }
+},
+{
+  q: "A postoperative client suddenly develops dyspnea, chest pain, and anxiety. Which complication does the nurse suspect FIRST?",
+  options: [
+    { text: "Pulmonary embolism", tag: "SCFHS" },
+    { text: "Atelectasis", tag: "SAFE_DELAY" },
+    { text: "Pneumonia", tag: "NCLEX" },
+    { text: "Pleural effusion", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Sudden onset respiratory distress is classic for pulmonary embolism.",
+    distractors: {
+      SAFE_DELAY: "Atelectasis develops gradually.",
+      NCLEX: "Pneumonia presents with fever and cough.",
+      STR: "Pleural effusion is not sudden."
+    }
+  }
+},
+{
+  q: "A nurse is reviewing laboratory results for a client receiving warfarin therapy. Which INR value indicates therapeutic anticoagulation?",
+  options: [
+    { text: "2.5", tag: "SCFHS" },
+    { text: "1.0", tag: "SAFE_DELAY" },
+    { text: "1.5", tag: "NCLEX" },
+    { text: "4.5", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Therapeutic INR for most indications is between 2.0 and 3.0.",
+    distractors: {
+      SAFE_DELAY: "INR of 1.0 indicates no anticoagulation.",
+      NCLEX: "INR of 1.5 is subtherapeutic.",
+      STR: "INR of 4.5 increases bleeding risk."
+    }
+  }
+},
+{
+  q: "A client with diabetes reports shakiness, sweating, and confusion. What is the nurse’s PRIORITY action?",
+  options: [
+    { text: "Check blood glucose level", tag: "SCFHS" },
+    { text: "Administer insulin", tag: "SAFE_DELAY" },
+    { text: "Encourage physical activity", tag: "NCLEX" },
+    { text: "Notify the physician", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Symptoms suggest hypoglycemia and require immediate confirmation.",
+    distractors: {
+      SAFE_DELAY: "Insulin would worsen hypoglycemia.",
+      NCLEX: "Activity increases glucose utilization.",
+      STR: "Assessment comes before notification."
+    }
+  }
+},
+{
+  q: "A nurse is teaching a client how to use an incentive spirometer. Which instruction is CORRECT?",
+  options: [
+    { text: "Inhale slowly and deeply through the mouthpiece", tag: "SCFHS" },
+    { text: "Exhale forcefully into the device", tag: "SAFE_DELAY" },
+    { text: "Use the device only when short of breath", tag: "NCLEX" },
+    { text: "Blow into the spirometer rapidly", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Slow, deep inhalation promotes lung expansion.",
+    distractors: {
+      SAFE_DELAY: "Exhalation is not the goal.",
+      NCLEX: "Regular use is required.",
+      STR: "Rapid blowing is incorrect technique."
+    }
+  }
+},
+{
+  q: "A client with chronic kidney disease has a serum potassium level of 6.2 mEq/L. Which finding should the nurse monitor for FIRST?",
+  options: [
+    { text: "Cardiac dysrhythmias", tag: "SCFHS" },
+    { text: "Muscle weakness", tag: "SAFE_DELAY" },
+    { text: "Abdominal cramping", tag: "NCLEX" },
+    { text: "Polyuria", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Hyperkalemia can cause life-threatening cardiac dysrhythmias.",
+    distractors: {
+      SAFE_DELAY: "Muscle weakness may occur but is not priority.",
+      NCLEX: "Abdominal cramping is less critical.",
+      STR: "Polyuria is not associated with hyperkalemia."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with increased intracranial pressure (ICP). Which position is MOST appropriate?",
+  options: [
+    { text: "Head of bed elevated 30 degrees", tag: "SCFHS" },
+    { text: "Supine with legs elevated", tag: "SAFE_DELAY" },
+    { text: "Trendelenburg position", tag: "NCLEX" },
+    { text: "Side-lying with knees flexed", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Elevating the head promotes venous drainage and reduces ICP.",
+    distractors: {
+      SAFE_DELAY: "Leg elevation increases ICP.",
+      NCLEX: "Trendelenburg worsens cerebral pressure.",
+      STR: "Flexion can increase ICP."
+    }
+  }
+},
+{
+  q: "A client receiving blood transfusion develops chills, fever, and flank pain. What is the nurse’s PRIORITY action?",
+  options: [
+    { text: "Stop the transfusion immediately", tag: "SCFHS" },
+    { text: "Slow the infusion rate", tag: "SAFE_DELAY" },
+    { text: "Administer antipyretics", tag: "NCLEX" },
+    { text: "Document the reaction", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "These findings suggest a transfusion reaction requiring immediate cessation.",
+    distractors: {
+      SAFE_DELAY: "Slowing the rate does not stop the reaction.",
+      NCLEX: "Medication is secondary to stopping transfusion.",
+      STR: "Documentation follows intervention."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with suspected appendicitis. Which action should be AVOIDED?",
+  options: [
+    { text: "Applying heat to the abdomen", tag: "SCFHS" },
+    { text: "Assessing pain location", tag: "SAFE_DELAY" },
+    { text: "Monitoring vital signs", tag: "NCLEX" },
+    { text: "Maintaining NPO status", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Heat can increase inflammation and risk of rupture.",
+    distractors: {
+      SAFE_DELAY: "Pain assessment is appropriate.",
+      NCLEX: "Vital signs are essential.",
+      STR: "NPO status prepares for surgery."
+    }
+  }
+},
+{
+  q: "A client with heart failure is prescribed furosemide. Which laboratory value is MOST important to monitor?",
+  options: [
+    { text: "Potassium level", tag: "SCFHS" },
+    { text: "Calcium level", tag: "SAFE_DELAY" },
+    { text: "Hemoglobin", tag: "NCLEX" },
+    { text: "White blood cell count", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Loop diuretics cause potassium loss leading to dysrhythmias.",
+    distractors: {
+      SAFE_DELAY: "Calcium is not primary.",
+      NCLEX: "Hemoglobin is unrelated.",
+      STR: "WBC count is not affected."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client on bed rest. Which intervention BEST prevents pressure injuries?",
+  options: [
+    { text: "Repositioning every 2 hours", tag: "SCFHS" },
+    { text: "Using pillows for comfort", tag: "SAFE_DELAY" },
+    { text: "Applying lotion to skin daily", tag: "NCLEX" },
+    { text: "Encouraging increased fluids only", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Regular repositioning relieves pressure and improves circulation.",
+    distractors: {
+      SAFE_DELAY: "Pillows alone are insufficient.",
+      NCLEX: "Lotion does not relieve pressure.",
+      STR: "Hydration alone is inadequate."
+    }
+  }
+},
+{
+  q: "A client with asthma is experiencing wheezing and shortness of breath. Which medication should the nurse administer FIRST?",
+  options: [
+    { text: "Short-acting beta-agonist", tag: "SCFHS" },
+    { text: "Inhaled corticosteroid", tag: "SAFE_DELAY" },
+    { text: "Leukotriene modifier", tag: "NCLEX" },
+    { text: "Long-acting bronchodilator", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Short-acting beta-agonists provide rapid bronchodilation.",
+    distractors: {
+      SAFE_DELAY: "Steroids are for long-term control.",
+      NCLEX: "Leukotriene modifiers are preventive.",
+      STR: "Long-acting agents are not for acute attacks."
+    }
+  }
+},
 ];
 
 // ================= ENGINE VARIABLES =================
