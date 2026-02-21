@@ -677,6 +677,547 @@ const questions = [
     }
   }
 },
+{
+  q: "A nurse is assessing a postoperative client and notes absent bowel sounds. What is the MOST appropriate action?",
+  options: [
+    { text: "Continue to monitor and keep NPO", tag: "SCFHS" },
+    { text: "Administer laxatives", tag: "SAFE_DELAY" },
+    { text: "Encourage oral fluids", tag: "NCLEX" },
+    { text: "Insert a rectal tube", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Absent bowel sounds may indicate ileus requiring observation and bowel rest.",
+    distractors: {
+      SAFE_DELAY: "Laxatives may worsen ileus.",
+      NCLEX: "Oral fluids may cause distention.",
+      STR: "Rectal tube is not first-line."
+    }
+  }
+},
+{
+  q: "A nurse is providing discharge teaching to a client prescribed antibiotics. Which instruction is MOST important?",
+  options: [
+    { text: "Complete the entire course as prescribed", tag: "SCFHS" },
+    { text: "Stop medication when symptoms improve", tag: "SAFE_DELAY" },
+    { text: "Take medication only when fever is present", tag: "NCLEX" },
+    { text: "Double the dose if one is missed", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Incomplete therapy contributes to resistance and recurrence.",
+    distractors: {
+      SAFE_DELAY: "Stopping early is unsafe.",
+      NCLEX: "Antibiotics are not PRN.",
+      STR: "Doubling doses increases toxicity."
+    }
+  }
+},
+{
+  q: "A client suddenly reports severe headache, blurred vision, and elevated blood pressure. Which condition does the nurse suspect?",
+  options: [
+    { text: "Hypertensive crisis", tag: "SCFHS" },
+    { text: "Hypotension", tag: "SAFE_DELAY" },
+    { text: "Migraine headache", tag: "NCLEX" },
+    { text: "Dehydration", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Severe symptoms with high BP indicate hypertensive crisis.",
+    distractors: {
+      SAFE_DELAY: "Hypotension presents differently.",
+      NCLEX: "Migraine does not cause severe hypertension.",
+      STR: "Dehydration causes low BP."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with diabetes mellitus who is experiencing shakiness, diaphoresis, and confusion. What is the nurse’s PRIORITY action?",
+  options: [
+    { text: "Check the client’s blood glucose level", tag: "SCFHS" },
+    { text: "Administer insulin as prescribed", tag: "SAFE_DELAY" },
+    { text: "Encourage physical activity", tag: "NCLEX" },
+    { text: "Document the findings", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Symptoms suggest hypoglycemia; blood glucose must be assessed immediately.",
+    distractors: {
+      SAFE_DELAY: "Insulin may worsen hypoglycemia.",
+      NCLEX: "Activity can further lower glucose.",
+      STR: "Documentation follows assessment."
+    }
+  }
+},
+{
+  q: "A postoperative client reports sudden shortness of breath and chest pain. Which complication does the nurse suspect?",
+  options: [
+    { text: "Pulmonary embolism", tag: "SCFHS" },
+    { text: "Atelectasis", tag: "SAFE_DELAY" },
+    { text: "Pneumonia", tag: "NCLEX" },
+    { text: "Fluid overload", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Acute chest pain and dyspnea are classic signs of pulmonary embolism.",
+    distractors: {
+      SAFE_DELAY: "Atelectasis presents more gradually.",
+      NCLEX: "Pneumonia develops over time.",
+      STR: "Fluid overload causes crackles and edema."
+    }
+  }
+},
+{
+  q: "A nurse is teaching a client how to use an incentive spirometer. Which instruction is MOST important?",
+  options: [
+    { text: "Inhale slowly and deeply through the mouthpiece", tag: "SCFHS" },
+    { text: "Exhale forcefully after inhalation", tag: "SAFE_DELAY" },
+    { text: "Use the device only when short of breath", tag: "NCLEX" },
+    { text: "Blow into the mouthpiece quickly", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Slow, deep inhalation promotes lung expansion.",
+    distractors: {
+      SAFE_DELAY: "Forceful exhalation is unnecessary.",
+      NCLEX: "Regular use is required.",
+      STR: "Blowing does not expand lungs."
+    }
+  }
+},
+{
+  q: "A client with chronic obstructive pulmonary disease (COPD) is receiving oxygen therapy. Which finding requires immediate nursing intervention?",
+  options: [
+    { text: "Decreased respiratory rate and lethargy", tag: "SCFHS" },
+    { text: "Oxygen saturation of 91%", tag: "SAFE_DELAY" },
+    { text: "Barrel-shaped chest", tag: "NCLEX" },
+    { text: "Productive cough", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Excess oxygen can suppress respiratory drive in COPD.",
+    distractors: {
+      SAFE_DELAY: "SpO₂ of 91% is acceptable in COPD.",
+      NCLEX: "Barrel chest is chronic.",
+      STR: "Productive cough is expected."
+    }
+  }
+},
+{
+  q: "A nurse is preparing to administer digoxin to a client. Which assessment is MOST important before giving the medication?",
+  options: [
+    { text: "Apical pulse rate", tag: "SCFHS" },
+    { text: "Blood pressure", tag: "SAFE_DELAY" },
+    { text: "Respiratory rate", tag: "NCLEX" },
+    { text: "Temperature", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Digoxin affects heart rate and can cause bradycardia.",
+    distractors: {
+      SAFE_DELAY: "Blood pressure is secondary.",
+      NCLEX: "Respiratory rate is not primary.",
+      STR: "Temperature is unrelated."
+    }
+  }
+},
+{
+  q: "A client with liver cirrhosis has increasing abdominal girth and shortness of breath. Which condition does the nurse suspect?",
+  options: [
+    { text: "Ascites", tag: "SCFHS" },
+    { text: "Bowel obstruction", tag: "SAFE_DELAY" },
+    { text: "Pancreatitis", tag: "NCLEX" },
+    { text: "Peptic ulcer disease", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Fluid accumulation in the abdomen is common in cirrhosis.",
+    distractors: {
+      SAFE_DELAY: "Obstruction causes pain and vomiting.",
+      NCLEX: "Pancreatitis presents with severe epigastric pain.",
+      STR: "Ulcers do not cause abdominal distention."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with a nasogastric tube attached to suction. Which assessment finding requires immediate action?",
+  options: [
+    { text: "Absent bowel sounds", tag: "SAFE_DELAY" },
+    { text: "Cracked and dry lips", tag: "NCLEX" },
+    { text: "Sudden cessation of drainage", tag: "SCFHS" },
+    { text: "Complaint of sore throat", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Sudden lack of drainage may indicate tube obstruction or displacement.",
+    distractors: {
+      SAFE_DELAY: "Absent sounds may be expected.",
+      NCLEX: "Dry lips are common.",
+      STR: "Sore throat is expected."
+    }
+  }
+},
+{
+  q: "A nurse is assessing a client who reports numbness and tingling in the fingers after surgery. Which imbalance does the nurse suspect?",
+  options: [
+    { text: "Hypocalcemia", tag: "SCFHS" },
+    { text: "Hypernatremia", tag: "SAFE_DELAY" },
+    { text: "Hyperkalemia", tag: "NCLEX" },
+    { text: "Hyponatremia", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Low calcium levels cause neuromuscular excitability.",
+    distractors: {
+      SAFE_DELAY: "Sodium imbalance presents differently.",
+      NCLEX: "Hyperkalemia affects cardiac rhythm.",
+      STR: "Hyponatremia causes confusion."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client receiving total parenteral nutrition (TPN). Which complication is MOST important to monitor for?",
+  options: [
+    { text: "Infection", tag: "SCFHS" },
+    { text: "Constipation", tag: "SAFE_DELAY" },
+    { text: "Diarrhea", tag: "NCLEX" },
+    { text: "Weight loss", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "TPN requires central venous access, increasing infection risk.",
+    distractors: {
+      SAFE_DELAY: "Constipation is unrelated.",
+      NCLEX: "Diarrhea does not occur with TPN.",
+      STR: "Weight loss is not expected."
+    }
+  }
+},
+{
+  q: "A nurse is providing care for a client with a new colostomy. Which finding indicates proper stoma function?",
+  options: [
+    { text: "Pink and moist appearance", tag: "SCFHS" },
+    { text: "Dark purple coloration", tag: "SAFE_DELAY" },
+    { text: "Pale and dry surface", tag: "NCLEX" },
+    { text: "No output for 72 hours", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "A healthy stoma should be pink and moist.",
+    distractors: {
+      SAFE_DELAY: "Purple indicates ischemia.",
+      NCLEX: "Dry stoma suggests poor perfusion.",
+      STR: "Prolonged lack of output is abnormal."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with diabetes mellitus who is experiencing shakiness, diaphoresis, and confusion. What is the nurse’s PRIORITY action?",
+  options: [
+    { text: "Check the client’s blood glucose level", tag: "SCFHS" },
+    { text: "Administer insulin as prescribed", tag: "SAFE_DELAY" },
+    { text: "Encourage physical activity", tag: "NCLEX" },
+    { text: "Document the findings", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Symptoms suggest hypoglycemia; blood glucose must be assessed immediately.",
+    distractors: {
+      SAFE_DELAY: "Insulin may worsen hypoglycemia.",
+      NCLEX: "Activity can further lower glucose.",
+      STR: "Documentation follows assessment."
+    }
+  }
+},
+{
+  q: "A postoperative client reports sudden shortness of breath and chest pain. Which complication does the nurse suspect?",
+  options: [
+    { text: "Pulmonary embolism", tag: "SCFHS" },
+    { text: "Atelectasis", tag: "SAFE_DELAY" },
+    { text: "Pneumonia", tag: "NCLEX" },
+    { text: "Fluid overload", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Acute chest pain and dyspnea are classic signs of pulmonary embolism.",
+    distractors: {
+      SAFE_DELAY: "Atelectasis presents more gradually.",
+      NCLEX: "Pneumonia develops over time.",
+      STR: "Fluid overload causes crackles and edema."
+    }
+  }
+},
+{
+  q: "A nurse is teaching a client how to use an incentive spirometer. Which instruction is MOST important?",
+  options: [
+    { text: "Inhale slowly and deeply through the mouthpiece", tag: "SCFHS" },
+    { text: "Exhale forcefully after inhalation", tag: "SAFE_DELAY" },
+    { text: "Use the device only when short of breath", tag: "NCLEX" },
+    { text: "Blow into the mouthpiece quickly", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Slow, deep inhalation promotes lung expansion.",
+    distractors: {
+      SAFE_DELAY: "Forceful exhalation is unnecessary.",
+      NCLEX: "Regular use is required.",
+      STR: "Blowing does not expand lungs."
+    }
+  }
+},
+{
+  q: "A client with chronic obstructive pulmonary disease (COPD) is receiving oxygen therapy. Which finding requires immediate nursing intervention?",
+  options: [
+    { text: "Decreased respiratory rate and lethargy", tag: "SCFHS" },
+    { text: "Oxygen saturation of 91%", tag: "SAFE_DELAY" },
+    { text: "Barrel-shaped chest", tag: "NCLEX" },
+    { text: "Productive cough", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Excess oxygen can suppress respiratory drive in COPD.",
+    distractors: {
+      SAFE_DELAY: "SpO₂ of 91% is acceptable in COPD.",
+      NCLEX: "Barrel chest is chronic.",
+      STR: "Productive cough is expected."
+    }
+  }
+},
+{
+  q: "A nurse is preparing to administer digoxin to a client. Which assessment is MOST important before giving the medication?",
+  options: [
+    { text: "Apical pulse rate", tag: "SCFHS" },
+    { text: "Blood pressure", tag: "SAFE_DELAY" },
+    { text: "Respiratory rate", tag: "NCLEX" },
+    { text: "Temperature", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Digoxin affects heart rate and can cause bradycardia.",
+    distractors: {
+      SAFE_DELAY: "Blood pressure is secondary.",
+      NCLEX: "Respiratory rate is not primary.",
+      STR: "Temperature is unrelated."
+    }
+  }
+},
+{
+  q: "A client with liver cirrhosis has increasing abdominal girth and shortness of breath. Which condition does the nurse suspect?",
+  options: [
+    { text: "Ascites", tag: "SCFHS" },
+    { text: "Bowel obstruction", tag: "SAFE_DELAY" },
+    { text: "Pancreatitis", tag: "NCLEX" },
+    { text: "Peptic ulcer disease", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Fluid accumulation in the abdomen is common in cirrhosis.",
+    distractors: {
+      SAFE_DELAY: "Obstruction causes pain and vomiting.",
+      NCLEX: "Pancreatitis presents with severe epigastric pain.",
+      STR: "Ulcers do not cause abdominal distention."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with a nasogastric tube attached to suction. Which assessment finding requires immediate action?",
+  options: [
+    { text: "Absent bowel sounds", tag: "SAFE_DELAY" },
+    { text: "Cracked and dry lips", tag: "NCLEX" },
+    { text: "Sudden cessation of drainage", tag: "SCFHS" },
+    { text: "Complaint of sore throat", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Sudden lack of drainage may indicate tube obstruction or displacement.",
+    distractors: {
+      SAFE_DELAY: "Absent sounds may be expected.",
+      NCLEX: "Dry lips are common.",
+      STR: "Sore throat is expected."
+    }
+  }
+},
+{
+  q: "A nurse is assessing a client who reports numbness and tingling in the fingers after surgery. Which imbalance does the nurse suspect?",
+  options: [
+    { text: "Hypocalcemia", tag: "SCFHS" },
+    { text: "Hypernatremia", tag: "SAFE_DELAY" },
+    { text: "Hyperkalemia", tag: "NCLEX" },
+    { text: "Hyponatremia", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Low calcium levels cause neuromuscular excitability.",
+    distractors: {
+      SAFE_DELAY: "Sodium imbalance presents differently.",
+      NCLEX: "Hyperkalemia affects cardiac rhythm.",
+      STR: "Hyponatremia causes confusion."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client receiving total parenteral nutrition (TPN). Which complication is MOST important to monitor for?",
+  options: [
+    { text: "Infection", tag: "SCFHS" },
+    { text: "Constipation", tag: "SAFE_DELAY" },
+    { text: "Diarrhea", tag: "NCLEX" },
+    { text: "Weight loss", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "TPN requires central venous access, increasing infection risk.",
+    distractors: {
+      SAFE_DELAY: "Constipation is unrelated.",
+      NCLEX: "Diarrhea does not occur with TPN.",
+      STR: "Weight loss is not expected."
+    }
+  }
+},
+{
+  q: "A nurse is providing care for a client with a new colostomy. Which finding indicates proper stoma function?",
+  options: [
+    { text: "Pink and moist appearance", tag: "SCFHS" },
+    { text: "Dark purple coloration", tag: "SAFE_DELAY" },
+    { text: "Pale and dry surface", tag: "NCLEX" },
+    { text: "No output for 72 hours", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "A healthy stoma should be pink and moist.",
+    distractors: {
+      SAFE_DELAY: "Purple indicates ischemia.",
+      NCLEX: "Dry stoma suggests poor perfusion.",
+      STR: "Prolonged lack of output is abnormal."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with a chest tube connected to water-seal drainage. Which finding indicates the system is functioning properly?",
+  options: [
+    { text: "Tidaling in the water-seal chamber", tag: "SCFHS" },
+    { text: "Continuous bubbling in the water-seal chamber", tag: "SAFE_DELAY" },
+    { text: "Absence of drainage", tag: "NCLEX" },
+    { text: "Clamped chest tube", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Tidaling reflects normal pressure changes during respiration.",
+    distractors: {
+      SAFE_DELAY: "Continuous bubbling suggests an air leak.",
+      NCLEX: "Lack of drainage may indicate obstruction.",
+      STR: "Clamping can cause tension pneumothorax."
+    }
+  }
+},
+{
+  q: "A client with a urinary catheter reports suprapubic discomfort and minimal urine output. What is the nurse’s FIRST action?",
+  options: [
+    { text: "Check the catheter tubing for kinks", tag: "SCFHS" },
+    { text: "Irrigate the catheter", tag: "SAFE_DELAY" },
+    { text: "Remove the catheter", tag: "NCLEX" },
+    { text: "Administer pain medication", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Mechanical obstruction is the most common cause of decreased output.",
+    distractors: {
+      SAFE_DELAY: "Irrigation requires a provider order.",
+      NCLEX: "Removal is premature.",
+      STR: "Pain meds do not correct obstruction."
+    }
+  }
+},
+{
+  q: "A nurse is assessing a client with suspected hypovolemia. Which finding supports this diagnosis?",
+  options: [
+    { text: "Tachycardia", tag: "SCFHS" },
+    { text: "Bounding pulses", tag: "SAFE_DELAY" },
+    { text: "Jugular vein distention", tag: "NCLEX" },
+    { text: "Crackles in the lungs", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Low circulating volume triggers compensatory tachycardia.",
+    distractors: {
+      SAFE_DELAY: "Bounding pulses indicate fluid overload.",
+      NCLEX: "JVD suggests hypervolemia.",
+      STR: "Crackles reflect pulmonary edema."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client receiving opioid analgesics. Which assessment finding requires immediate intervention?",
+  options: [
+    { text: "Respiratory rate of 8 breaths per minute", tag: "SCFHS" },
+    { text: "Constipation", tag: "SAFE_DELAY" },
+    { text: "Nausea", tag: "NCLEX" },
+    { text: "Drowsiness", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Opioids depress respiration, which is life-threatening.",
+    distractors: {
+      SAFE_DELAY: "Constipation is expected.",
+      NCLEX: "Nausea is common.",
+      STR: "Mild drowsiness is anticipated."
+    }
+  }
+},
+{
+  q: "A nurse is teaching a client about prevention of urinary tract infections. Which instruction is MOST important?",
+  options: [
+    { text: "Increase fluid intake", tag: "SCFHS" },
+    { text: "Limit bathroom use", tag: "SAFE_DELAY" },
+    { text: "Use scented hygiene products", tag: "NCLEX" },
+    { text: "Delay voiding when busy", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Fluids help flush bacteria from the urinary tract.",
+    distractors: {
+      SAFE_DELAY: "Limiting voiding promotes infection.",
+      NCLEX: "Scented products irritate tissue.",
+      STR: "Delaying voiding increases risk."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with burns over 35% of the body. Which intervention is PRIORITY during the first 24 hours?",
+  options: [
+    { text: "Fluid resuscitation", tag: "SCFHS" },
+    { text: "High-calorie nutrition", tag: "SAFE_DELAY" },
+    { text: "Wound debridement", tag: "NCLEX" },
+    { text: "Range-of-motion exercises", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Burns cause massive fluid shifts leading to hypovolemic shock.",
+    distractors: {
+      SAFE_DELAY: "Nutrition follows stabilization.",
+      NCLEX: "Debridement is not first priority.",
+      STR: "ROM is secondary."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client after thyroidectomy. Which finding suggests hypocalcemia?",
+  options: [
+    { text: "Tingling around the mouth", tag: "SCFHS" },
+    { text: "Weight gain", tag: "SAFE_DELAY" },
+    { text: "Heat intolerance", tag: "NCLEX" },
+    { text: "Bradycardia", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Parathyroid injury can cause low calcium levels.",
+    distractors: {
+      SAFE_DELAY: "Weight gain is unrelated.",
+      NCLEX: "Heat intolerance suggests hyperthyroidism.",
+      STR: "Bradycardia is unrelated."
+    }
+  }
+},
+
 ];
 
 // ================= ENGINE VARIABLES =================
