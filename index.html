@@ -1217,6 +1217,672 @@ const questions = [
     }
   }
 },
+{
+  q: "A client is receiving warfarin therapy. Which laboratory value should the nurse monitor?",
+  options: [
+    { text: "INR", tag: "SCFHS" },
+    { text: "aPTT", tag: "SAFE_DELAY" },
+    { text: "Platelet count", tag: "NCLEX" },
+    { text: "Hemoglobin A1c", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "INR evaluates effectiveness and safety of warfarin.",
+    distractors: {
+      SAFE_DELAY: "aPTT monitors heparin.",
+      NCLEX: "Platelets are not primary.",
+      STR: "A1c is for diabetes."
+    }
+  }
+},
+{
+  q: "A nurse is assessing a client with dehydration. Which finding is expected?",
+  options: [
+    { text: "Poor skin turgor", tag: "SCFHS" },
+    { text: "Bradycardia", tag: "SAFE_DELAY" },
+    { text: "Jugular vein distention", tag: "NCLEX" },
+    { text: "Crackles in the lungs", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Fluid loss leads to decreased skin elasticity.",
+    distractors: {
+      SAFE_DELAY: "Bradycardia is unlikely.",
+      NCLEX: "JVD indicates fluid excess.",
+      STR: "Crackles reflect overload."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with a suspected stroke. Which action should be performed FIRST?",
+  options: [
+    { text: "Assess airway and oxygenation", tag: "SCFHS" },
+    { text: "Check blood glucose level", tag: "SAFE_DELAY" },
+    { text: "Obtain a detailed history", tag: "NCLEX" },
+    { text: "Prepare the client for CT scan", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Airway and breathing take priority in neurologic emergencies.",
+    distractors: {
+      SAFE_DELAY: "Glucose check follows stabilization.",
+      NCLEX: "History is not first.",
+      STR: "Imaging follows ABCs."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client with suspected meningitis. Which action is MOST important to implement immediately?",
+  options: [
+    { text: "Initiate droplet precautions", tag: "SCFHS" },
+    { text: "Administer antipyretics", tag: "SAFE_DELAY" },
+    { text: "Encourage oral fluids", tag: "NCLEX" },
+    { text: "Provide a darkened room", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Meningitis is highly contagious and requires immediate isolation.",
+    distractors: {
+      SAFE_DELAY: "Fever management is secondary.",
+      NCLEX: "Oral fluids may not be tolerated.",
+      STR: "Comfort measures follow safety precautions."
+    }
+  }
+},
+{
+  q: "A post- portative patient in surgical unit most indicative of a developing complication?",
+  options: [
+    { text: "increasing alertness", tag: "SAFE_DELAY" },
+    { text: "weak and rapid pulse", tag: "SCFHS" },
+    { text: "negative Homans' sign", tag: "NCLEX" },
+    { text: "minimal bowel sounds in four quadrants", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "A weak and rapid pulse may indicate shock or hemorrhage.",
+    distractors: {
+      SAFE_DELAY: "Increasing alertness is a positive sign.",
+      NCLEX: "Negative Homans' sign does not indicate complication.",
+      STR: "Minimal bowel sounds can be expected postoperatively."
+    }
+  }
+},
+{
+  q: "A patient is scheduled for an abdominal aneurysm repair. This is what type of surgical intervention?",
+  options: [
+    { text: "Diagnostic", tag: "SAFE_DELAY" },
+    { text: "Transplant", tag: "STR" },
+    { text: "Curative", tag: "SCFHS" },
+    { text: "Palliative", tag: "NCLEX" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Repair of an aneurysm is intended to correct the pathology.",
+    distractors: {
+      SAFE_DELAY: "No diagnostic intent.",
+      STR: "No organ replacement is involved.",
+      NCLEX: "Not performed for symptom relief only."
+    }
+  }
+},
+{
+  q: "Mr Ahmed admitted to ICU with congestive heart disease his vital signs BP 110/60 HR 120. stroke volume 80 the nurse expected cardiac output to be",
+  options: [
+    { text: "9600", tag: "SCFHS" },
+    { text: "1800", tag: "SAFE_DELAY" },
+    { text: "6900", tag: "NCLEX" },
+    { text: "8100", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Cardiac output = heart rate × stroke volume.",
+    distractors: {
+      SAFE_DELAY: "Calculation is incorrect.",
+      NCLEX: "Does not match the formula.",
+      STR: "Incorrect computation."
+    }
+  }
+},
+{
+  q: "Normal systolic BP for new born",
+  options: [
+    { text: "80/60", tag: "SCFHS" },
+    { text: "60/20", tag: "SAFE_DELAY" },
+    { text: "100/40", tag: "NCLEX" },
+    { text: "40/30", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Normal systolic BP in newborns is around 80 mmHg.",
+    distractors: {
+      SAFE_DELAY: "Too low.",
+      NCLEX: "Too high.",
+      STR: "Below normal range."
+    }
+  }
+},
+{
+  q: "A 55-year-old man takes cyclosporine mg by mouth twice per day. He had a heart transplant two months ago. He complains of stomach cramping, diarrhea and muscle twitches. Which electrolyte is most likely elevated?",
+  options: [
+    { text: "Calcium", tag: "SAFE_DELAY" },
+    { text: "Sodium", tag: "STR" },
+    { text: "Magnesium", tag: "NCLEX" },
+    { text: "Potassium", tag: "SCFHS" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Cyclosporine can cause hyperkalemia.",
+    distractors: {
+      SAFE_DELAY: "Symptoms do not match calcium excess.",
+      STR: "Sodium imbalance not typical.",
+      NCLEX: "Magnesium changes are less common."
+    }
+  }
+},
+{
+  q: "After accessing patients' medical records, which behaviour nurse shows that patients confidentiality has been breached?",
+  options: [
+    { text: "Reviews patients medical record", tag: "SAFE_DELAY" },
+    { text: "Read patients care plan", tag: "NCLEX" },
+    { text: "Disclosing patient’s information", tag: "SCFHS" },
+    { text: "Documents medication administered", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Sharing patient information violates confidentiality.",
+    distractors: {
+      SAFE_DELAY: "Reviewing records is part of care.",
+      NCLEX: "Care plans are accessed for treatment.",
+      STR: "Documentation is required."
+    }
+  }
+},
+{
+  q: "Which of the following variables is considered as a major factor that affects community health?",
+  options: [
+    { text: "Personal behavioural choices include socio-cultural factors", tag: "SCFHS" },
+    { text: "Number of health care providers in hospitals within the community", tag: "NCLEX" },
+    { text: "Quality of the public safety officers includes police officers, firefighters", tag: "SAFE_DELAY" },
+    { text: "The number of recreational services in the community", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Lifestyle and socio-cultural factors strongly influence community health.",
+    distractors: {
+      NCLEX: "Important but not primary.",
+      SAFE_DELAY: "Indirect influence.",
+      STR: "Less significant overall impact."
+    }
+  }
+},
+{
+  q: "During an emergency code situation, a primary health care provider about to defibrillate a client diagnosed in ventricular fibrillation says in a loud voice, “CLEAR!” Which action should the nurse immediately implement?",
+  options: [
+    { text: "Shut off the mechanical ventilator", tag: "SAFE_DELAY" },
+    { text: "Shut off the intravenous infusion going into the client’s arm", tag: "NCLEX" },
+    { text: "Step away from the bed and make sure that all others have done the same", tag: "SCFHS" },
+    { text: "Place the conductive gel pads for defibrillation on the client’s chest", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Ensuring no one is in contact prevents injury during defibrillation.",
+    distractors: {
+      SAFE_DELAY: "Ventilator does not need to be stopped immediately.",
+      NCLEX: "IV infusion is not priority.",
+      STR: "Pads should already be in place."
+    }
+  }
+},
+{
+  q: "conscious victim of a motor vehicle accident arrives at the emergency department. The patient is Gasping for air, is extremely anxious, and has a deviated trachea. What diagnosis should the nurse Anticipate?",
+  options: [
+    { text: "pleural effusion", tag: "SAFE_DELAY" },
+    { text: "tension pneumothorax", tag: "SCFHS" },
+    { text: "cardiac tamponed", tag: "NCLEX" },
+    { text: "Severe asthma", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Tracheal deviation, severe respiratory distress, and anxiety indicate tension pneumothorax.",
+    distractors: {
+      SAFE_DELAY: "Pleural effusion does not cause tracheal deviation acutely.",
+      NCLEX: "Cardiac tamponade presents with hypotension and muffled heart sounds.",
+      STR: "Asthma does not cause tracheal deviation."
+    }
+  }
+},
+{
+  q: "child has a third- degree burns of the hand, chest, face, which nursing diagnosing takes priority?",
+  options: [
+    { text: "Ineffective airway clearance", tag: "SCFHS" },
+    { text: "disturbed body image", tag: "SAFE_DELAY" },
+    { text: "impaired urinary eliminations", tag: "NCLEX" },
+    { text: "risk for infection", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Burns involving face and chest place airway at immediate risk.",
+    distractors: {
+      SAFE_DELAY: "Body image is not the priority in acute phase.",
+      NCLEX: "Urinary elimination is secondary.",
+      STR: "Infection risk is important but not immediate."
+    }
+  }
+},
+{
+  q: "The nurse administers digoxin 0.25 mg by mouth rather than the prescribed dose of 0.125 mg to the client. After assessing the client and notifying the health care provider, which action should the nurse implement first?",
+  options: [
+    { text: "Administer digoxin immune Fab", tag: "SAFE_DELAY" },
+    { text: "Tell the client about the medication error", tag: "NCLEX" },
+    { text: "Write an incident report", tag: "SCFHS" },
+    { text: "Tell the client about the adverse effects of digoxin", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Incident reports must be completed after medication errors.",
+    distractors: {
+      SAFE_DELAY: "Antidote is not indicated unless toxicity is present.",
+      NCLEX: "Disclosure follows institutional policy.",
+      STR: "Education is secondary."
+    }
+  }
+},
+{
+  q: "a nurse is caring for a child with traction of fractured bone. In the chart, a doctor has placed a reminder to maintain even and constant traction What would be the most likely understanding of the nurse for this order?",
+  options: [
+    { text: "Add or remove weights every other day", tag: "SAFE_DELAY" },
+    { text: "Allow weights to hang free continuously", tag: "SCFHS" },
+    { text: "Allow weights to hang free every 12 hours to achieve good circulation", tag: "NCLEX" },
+    { text: "Elevate head and foot of the bed alternatively when in pain", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Traction must be continuous and uninterrupted.",
+    distractors: {
+      SAFE_DELAY: "Weights should not be adjusted arbitrarily.",
+      NCLEX: "Traction should not be intermittent.",
+      STR: "Bed repositioning disrupts traction."
+    }
+  }
+},
+{
+  q: "A 70-year-old man presents to the clinic with difficulty sleeping at night. He has not had a good night's rest for several months and feels exhausted. He needs to place three pillows behind his back in order to sleep. Examination of the lungs reveals crackles and wheels Auscultation of the heart confirms an S gallop. Which of the following is the most likely underlying health problem?",
+  options: [
+    { text: "Asthma", tag: "SAFE_DELAY" },
+    { text: "Pulmonary stenosis", tag: "STR" },
+    { text: "Right-sided heart failure", tag: "NCLEX" },
+    { text: "Left-sided heart failure", tag: "SCFHS" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Orthopnea, crackles, and S3 gallop indicate left-sided heart failure.",
+    distractors: {
+      SAFE_DELAY: "Asthma does not cause S3 gallop.",
+      STR: "Pulmonary stenosis presents differently.",
+      NCLEX: "Right-sided failure causes peripheral edema."
+    }
+  }
+},
+{
+  q: "An 12-year- old child has been diagnosed with Diabetes insipidus which of the following is disorder?",
+  options: [
+    { text: "Posterior pituitary", tag: "SCFHS" },
+    { text: "Adrenal medulla", tag: "SAFE_DELAY" },
+    { text: "Anterior pituitary", tag: "NCLEX" },
+    { text: "Adrenal cortex", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Diabetes insipidus is caused by deficiency of ADH from posterior pituitary.",
+    distractors: {
+      SAFE_DELAY: "Adrenal medulla regulates catecholamines.",
+      NCLEX: "Anterior pituitary secretes different hormones.",
+      STR: "Adrenal cortex regulates corticosteroids."
+    }
+  }
+},
+{
+  q: "A client has just been admitted to the emergency department with chest pain. Serum cardiac enzyme levels are drawn, and the results indicate an elevated serum creatinine kinase (CK)-MB isoenzyme, troponin T, and troponinI. The nurse concludes that these results are compatible with what diagnosis?",
+  options: [
+    { text: "Stable angina", tag: "SAFE_DELAY" },
+    { text: "Unstable angina", tag: "NCLEX" },
+    { text: "Prinzmetal’s angina", tag: "STR" },
+    { text: "New-onset myocardial infarction (MI)", tag: "SCFHS" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Elevated cardiac enzymes confirm myocardial infarction.",
+    distractors: {
+      SAFE_DELAY: "Stable angina does not elevate enzymes.",
+      NCLEX: "Unstable angina may not elevate enzymes.",
+      STR: "Prinzmetal’s angina is vasospastic."
+    }
+  }
+},
+{
+  q: "A patient was complaining of depression, muscle weakness and continuous fatigue. which of the following deficiencies is suspected?",
+  options: [
+    { text: "Deficiency of vitamin B", tag: "SAFE_DELAY" },
+    { text: "Deficiency of vitamin D", tag: "SCFHS" },
+    { text: "Deficiency of vitamin E", tag: "NCLEX" },
+    { text: "Deficiency of vitamin K", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Vitamin D deficiency causes muscle weakness, fatigue, and mood changes.",
+    distractors: {
+      SAFE_DELAY: "Vitamin B affects neurologic function.",
+      NCLEX: "Vitamin E affects neuromuscular integrity.",
+      STR: "Vitamin K affects clotting."
+    }
+  }
+},
+{
+  q: "At the beginning of the afternoon shifts in the receiving handover from a morning shift nurse post coronary angioplasty. The nurse waveform on the monitor, upon assessment the carotid pulse (see image). What should be the most appropriate next action?",
+  options: [
+    { text: "Give a DC shock", tag: "SCFHS" },
+    { text: "Refuse to receive patient", tag: "SAFE_DELAY" },
+    { text: "Check ventilators settings", tag: "NCLEX" },
+    { text: "Shout for help and start chest compression", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Pulseless rhythm post-angioplasty requires immediate defibrillation.",
+    distractors: {
+      SAFE_DELAY: "Patient refusal is inappropriate.",
+      NCLEX: "Ventilator settings are not priority.",
+      STR: "CPR follows defibrillation if indicated."
+    }
+  }
+},
+{
+  q: "The nurse assists the primary health care provider with the removal of a chest tube. During the procedure, the nurse instructs the client to perform which action?",
+  options: [
+    { text: "Inhale deeply", tag: "SAFE_DELAY" },
+    { text: "Breathe normally", tag: "NCLEX" },
+    { text: "Breathe out forcefully", tag: "STR" },
+    { text: "Take a deep breath and hold it", tag: "SCFHS" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Holding breath during removal prevents air from entering pleural space.",
+    distractors: {
+      SAFE_DELAY: "Inhalation increases pneumothorax risk.",
+      NCLEX: "Normal breathing is unsafe.",
+      STR: "Forceful exhalation is incorrect."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient with atrial fibrillation who is receiving digoxin. Which finding would indicate digoxin toxicity?",
+  options: [
+    { text: "Bradycardia", tag: "SCFHS" },
+    { text: "Hypertension", tag: "SAFE_DELAY" },
+    { text: "Polyuria", tag: "NCLEX" },
+    { text: "Hyperactivity", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Bradycardia is a classic sign of digoxin toxicity.",
+    distractors: {
+      SAFE_DELAY: "Hypertension is not associated with digoxin toxicity.",
+      NCLEX: "Polyuria is not a characteristic finding.",
+      STR: "Hyperactivity is not related."
+    }
+  }
+},
+{
+  q: "A patient receiving intravenous potassium chloride complains of burning at the IV site. What is the nurse’s FIRST action?",
+  options: [
+    { text: "Stop the infusion and assess the IV site", tag: "SCFHS" },
+    { text: "Notify the physician immediately", tag: "SAFE_DELAY" },
+    { text: "Slow the infusion rate", tag: "NCLEX" },
+    { text: "Administer prescribed analgesic", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "IV potassium is irritating and extravasation can cause tissue damage.",
+    distractors: {
+      SAFE_DELAY: "Assessment must occur before notification.",
+      NCLEX: "Slowing may still cause injury.",
+      STR: "Analgesics do not address the cause."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient who suddenly becomes unresponsive and pulseless. What is the nurse’s PRIORITY action?",
+  options: [
+    { text: "Initiate cardiopulmonary resuscitation (CPR)", tag: "SCFHS" },
+    { text: "Call the physician", tag: "SAFE_DELAY" },
+    { text: "Check blood pressure", tag: "NCLEX" },
+    { text: "Prepare emergency medications", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Immediate CPR is required in cardiac arrest.",
+    distractors: {
+      SAFE_DELAY: "Calling the physician delays life-saving care.",
+      NCLEX: "Vital signs are not assessed in pulselessness.",
+      STR: "Medications follow CPR initiation."
+    }
+  }
+},
+{
+  q: "A nurse is providing discharge instructions to a patient prescribed warfarin therapy. Which statement by the patient indicates understanding?",
+  options: [
+    { text: "I will have my INR checked regularly", tag: "SCFHS" },
+    { text: "I can take aspirin for pain", tag: "SAFE_DELAY" },
+    { text: "Green leafy vegetables should be increased", tag: "NCLEX" },
+    { text: "I can stop the drug once I feel better", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "INR monitoring is essential to maintain therapeutic anticoagulation.",
+    distractors: {
+      SAFE_DELAY: "Aspirin increases bleeding risk.",
+      NCLEX: "Vitamin K intake should be consistent, not increased.",
+      STR: "Medication must not be stopped abruptly."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient with hypoglycemia. Which finding is most expected?",
+  options: [
+    { text: "Diaphoresis and tremors", tag: "SCFHS" },
+    { text: "Dry skin and thirst", tag: "SAFE_DELAY" },
+    { text: "Kussmaul respirations", tag: "NCLEX" },
+    { text: "Weight gain", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Adrenergic symptoms such as sweating and tremors occur in hypoglycemia.",
+    distractors: {
+      SAFE_DELAY: "Dry skin indicates hyperglycemia.",
+      NCLEX: "Kussmaul respirations occur in ketoacidosis.",
+      STR: "Weight gain is unrelated."
+    }
+  }
+},
+{
+  q: "A patient with asthma is receiving a beta-agonist inhaler. Which finding indicates the medication is effective?",
+  options: [
+    { text: "Decreased wheezing", tag: "SCFHS" },
+    { text: "Increased heart rate", tag: "SAFE_DELAY" },
+    { text: "Dry mouth", tag: "NCLEX" },
+    { text: "Tremors", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Relief of bronchospasm is evidenced by decreased wheezing.",
+    distractors: {
+      SAFE_DELAY: "Tachycardia is a side effect.",
+      NCLEX: "Dry mouth is a side effect.",
+      STR: "Tremors are adverse effects."
+    }
+  }
+},
+{
+  q: "A nurse is preparing to administer insulin glargine. Which instruction is correct?",
+  options: [
+    { text: "Do not mix with other insulins", tag: "SCFHS" },
+    { text: "Administer intravenously", tag: "SAFE_DELAY" },
+    { text: "Give before meals only", tag: "NCLEX" },
+    { text: "Use for sliding scale coverage", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Insulin glargine is long-acting and must not be mixed.",
+    distractors: {
+      SAFE_DELAY: "It is not given IV.",
+      NCLEX: "It is not meal-time insulin.",
+      STR: "It is not used for sliding scale."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient with increased intracranial pressure (ICP). Which finding requires IMMEDIATE intervention?",
+  options: [
+    { text: "Projectile vomiting", tag: "SCFHS" },
+    { text: "Headache", tag: "SAFE_DELAY" },
+    { text: "Restlessness", tag: "NCLEX" },
+    { text: "Blurred vision", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Projectile vomiting is a late and dangerous sign of increased ICP.",
+    distractors: {
+      SAFE_DELAY: "Headache is an early sign.",
+      NCLEX: "Restlessness occurs earlier.",
+      STR: "Blurred vision is less urgent."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient with suspected spinal cord injury. What is the PRIORITY nursing action?",
+  options: [
+    { text: "Immobilize the spine", tag: "SCFHS" },
+    { text: "Assess level of pain", tag: "SAFE_DELAY" },
+    { text: "Apply warm blankets", tag: "NCLEX" },
+    { text: "Encourage range of motion", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Spinal immobilization prevents further neurologic damage.",
+    distractors: {
+      SAFE_DELAY: "Pain assessment is secondary.",
+      NCLEX: "Warm blankets are supportive but not priority.",
+      STR: "ROM can worsen injury."
+    }
+  }
+},
+{
+  q: "A patient with chronic kidney disease is prescribed a low-potassium diet. Which food should the nurse instruct the patient to AVOID?",
+  options: [
+    { text: "Bananas", tag: "SCFHS" },
+    { text: "Apples", tag: "SAFE_DELAY" },
+    { text: "White rice", tag: "NCLEX" },
+    { text: "Bread", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Bananas are high in potassium and should be avoided.",
+    distractors: {
+      SAFE_DELAY: "Apples are low in potassium.",
+      NCLEX: "Rice is safe.",
+      STR: "STR: "Bread is low in potassium."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a client receiving intravenous morphine. Which assessment finding requires IMMEDIATE nursing action?",
+  options: [
+    { text: "Respiratory rate of 8 breaths per minute", tag: "SCFHS" },
+    { text: "Constipation", tag: "SAFE_DELAY" },
+    { text: "Nausea", tag: "NCLEX" },
+    { text: "Urinary retention", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Respiratory depression is a life-threatening adverse effect of opioids.",
+    distractors: {
+      SAFE_DELAY: "Constipation is expected with opioids.",
+      NCLEX: "Nausea is common.",
+      STR: "Urinary retention is non-urgent."
+    }
+  }
+},
+{
+  q: "A client with diabetes mellitus reports shakiness, sweating, and confusion. What is the nurse’s PRIORITY action?",
+  options: [
+    { text: "Check the blood glucose level", tag: "SCFHS" },
+    { text: "Administer insulin", tag: "SAFE_DELAY" },
+    { text: "Encourage exercise", tag: "NCLEX" },
+    { text: "Document the findings", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Symptoms suggest hypoglycemia and blood glucose must be checked immediately.",
+    distractors: {
+      SAFE_DELAY: "Insulin would worsen hypoglycemia.",
+      NCLEX: "Exercise lowers glucose further.",
+      STR: "Documentation follows intervention."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a postoperative client who suddenly develops shortness of breath and chest pain. What complication should the nurse suspect?",
+  options: [
+    { text: "Pulmonary embolism", tag: "SCFHS" },
+    { text: "Atelectasis", tag: "SAFE_DELAY" },
+    { text: "Pneumonia", tag: "NCLEX" },
+    { text: "Fluid overload", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Sudden dyspnea and chest pain are classic signs of pulmonary embolism.",
+    distractors: {
+      SAFE_DELAY: "Atelectasis causes gradual symptoms.",
+      NCLEX: "Pneumonia develops over time.",
+      STR: "Fluid overload presents differently."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient with burns covering 40% of the body. Which assessment is the HIGHEST priority?",
+  options: [
+    { text: "Airway patency", tag: "SCFHS" },
+    { text: "Pain level", tag: "SAFE_DELAY" },
+    { text: "Urine output", tag: "NCLEX" },
+    { text: "Nutritional status", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Airway assessment is the top priority in burn patients.",
+    distractors: {
+      SAFE_DELAY: "Pain is important but secondary.",
+      NCLEX: "Urine output is monitored after airway.",
+      STR: "Nutrition is addressed later."
+    }
+  }
+},
+{
+  q: "A nurse is caring for a patient receiving blood transfusion. Which finding indicates a transfusion reaction?",
+  options: [
+    { text: "Chills and fever", tag: "SCFHS" },
+    { text: "Warm skin", tag: "SAFE_DELAY" },
+    { text: "Increased appetite", tag: "NCLEX" },
+    { text: "Clear urine output", tag: "STR" }
+  ],
+  correctTag: "SCFHS",
+  rationale: {
+    correct: "Chills and fever are early signs of a transfusion reaction.",
+    distractors: {
+      SAFE_DELAY: "Warm skin alone is nonspecific.",
+      NCLEX: "Appetite is unrelated.",
+      STR: "Clear urine is normal."
+    }
+  }
+},
 
 ];
 
